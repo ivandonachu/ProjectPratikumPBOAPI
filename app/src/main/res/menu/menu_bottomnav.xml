@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_bottomnav_holiday"
+        android:title="List Holiday"
+        android:icon="@drawable/holiday"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_bottomnav_calender"
+        android:title="Calender"
+        android:icon="@drawable/calender"
+        app:showAsAction="ifRoom"/>
+</menu>

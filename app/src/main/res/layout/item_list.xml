@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemlist_cv"
+    android:layout_width="match_parent"
+    android:layout_height="165sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/colorAccent"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="25sp">
+         <TextView
+             android:text="Holiday          : "
+             android:textColor="@color/font"
+             android:textSize="18sp"
+             android:layout_width="120sp"
+             android:layout_height="match_parent"/>
+         <TextView
+             android:id="@+id/itemlist_tv_namahari"
+             android:text="nama harinya"
+             android:textSize="18sp"
+             android:textColor="@color/font"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"/>
+     </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25sp">
+            <TextView
+                android:text="Date               : "
+                android:textColor="@color/font"
+                android:textSize="18sp"
+                android:layout_width="120sp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/itemlist_tv_date"
+                android:text="date"
+                android:textSize="18sp"
+                android:textColor="@color/font"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            >
+            <TextView
+                android:text="Start               : "
+                android:textSize="18sp"
+                android:textColor="@color/font"
+                android:layout_width="120sp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/itemlist_tv_start"
+                android:text="mulai"
+                android:textSize="18sp"
+                android:textColor="@color/font"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            >
+            <TextView
+                android:text="End                 : "
+                android:textSize="18sp"
+                android:textColor="@color/font"
+                android:layout_width="120sp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/itemlist_tv_end"
+                android:text="selesai"
+                android:textSize="18sp"
+                android:textColor="@color/font"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            >
+            <TextView
+                android:text="Type               : "
+                android:textSize="18sp"
+                android:textColor="@color/font"
+                android:layout_width="120sp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/itemlist_tv_type"
+                android:text="tipe"
+                android:textSize="18sp"
+                android:textColor="@color/font"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            >
+            <TextView
+                android:text="Country          : "
+                android:textSize="18sp"
+                android:textColor="@color/font"
+                android:layout_width="120sp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/itemlist_tv_negara"
+                android:text="negaranya"
+                android:textSize="18sp"
+                android:textColor="@color/font"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
